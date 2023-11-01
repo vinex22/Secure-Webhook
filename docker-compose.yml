@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile  # Your Dockerfile for the webhook receiver
+    container_name: swr
     ports:
       - "80:80"
     environment:

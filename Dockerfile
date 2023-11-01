@@ -5,11 +5,11 @@ FROM python:3
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
-COPY hmac.py /app/
+COPY swr.py /app/
 COPY requirements.txt /app/
 
 # Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
 
 # Run hmac.py when the container launches
-CMD ["python", "hmac.py"]
+CMD ["python", "swr.py"]
