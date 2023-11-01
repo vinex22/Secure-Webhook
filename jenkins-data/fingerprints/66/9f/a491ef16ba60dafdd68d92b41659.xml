@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-11-01 03:26:17.621 UTC</timestamp>
+  <md5sum>669fa491ef16ba60dafdd68d92b41659</md5sum>
+  <fileName>Credential id=admin name=admin/******</fileName>
+  <usages>
+    <entry>
+      <string>test</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

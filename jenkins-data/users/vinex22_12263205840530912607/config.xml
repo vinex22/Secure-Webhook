@@ -1,9 +1,14 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <user>
   <version>10</version>
-  <id>admin</id>
-  <fullName>admin</fullName>
+  <id>vinex22</id>
+  <fullName>vinex22</fullName>
   <properties>
+    <jenkins.security.ApiTokenProperty>
+      <tokenStore>
+        <tokenList/>
+      </tokenStore>
+    </jenkins.security.ApiTokenProperty>
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@1307.v3757c78f17c3">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
@@ -28,7 +33,7 @@
       <collapsed/>
     </hudson.model.PaneStatusProperties>
     <jenkins.security.seed.UserSeedProperty>
-      <seed>5a1eba1762459ade</seed>
+      <seed>cdb19e3b32eed5f3</seed>
     </jenkins.security.seed.UserSeedProperty>
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>true</insensitiveSearch>
@@ -37,22 +42,8 @@
     <jenkins.model.experimentalflags.UserExperimentalFlagsProperty>
       <flags/>
     </jenkins.model.experimentalflags.UserExperimentalFlagsProperty>
-    <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$wIAUnvaaeQdL/Ko.mW87.uz9cIeuSfR4kdUegW/15alsUWwSeafgS</passwordHash>
-    </hudson.security.HudsonPrivateSecurityRealm_-Details>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@463.vedf8358e006b_">
-      <emailAddress>admin@123.com</emailAddress>
+      <emailAddress>vinex22@gmail.com</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
-    <jenkins.security.ApiTokenProperty>
-      <tokenStore>
-        <tokenList/>
-      </tokenStore>
-    </jenkins.security.ApiTokenProperty>
-    <jenkins.security.LastGrantedAuthoritiesProperty>
-      <roles>
-        <string>authenticated</string>
-      </roles>
-      <timestamp>1698810666631</timestamp>
-    </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>

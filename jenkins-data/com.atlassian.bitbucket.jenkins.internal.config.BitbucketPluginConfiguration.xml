@@ -1,0 +1,11 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.atlassian.bitbucket.jenkins.internal.config.BitbucketPluginConfiguration plugin="atlassian-bitbucket-server-integration@4.0.0">
+  <serverList>
+    <atl-bbs-configuration>
+      <adminCredentialsId>bbpat</adminCredentialsId>
+      <id>acb65384-213a-4917-a877-b5c993150a41</id>
+      <baseUrl>http://bitbucket:7990</baseUrl>
+      <serverName>Local</serverName>
+    </atl-bbs-configuration>
+  </serverList>
+</com.atlassian.bitbucket.jenkins.internal.config.BitbucketPluginConfiguration>

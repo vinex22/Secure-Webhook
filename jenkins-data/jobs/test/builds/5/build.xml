@@ -1,0 +1,76 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1307.v3757c78f17c3">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@5.2.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/test_repo/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@4.5.0">
+              <sha1>6bec910c4b8bfcc580df665e3b6a87fb71cc5dba</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/test_repo/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>5</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>http://bitbucket:7990/scm/test/test_repo.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <com.atlassian.bitbucket.jenkins.internal.status.BitbucketRevisionAction plugin="atlassian-bitbucket-server-integration@4.0.0">
+      <bitbucketSCMRepository>
+        <credentialsId>admin</credentialsId>
+        <mirrorName></mirrorName>
+        <projectKey>TEST</projectKey>
+        <projectName>test</projectName>
+        <repositoryName>test_repo</repositoryName>
+        <repositorySlug>test_repo</repositorySlug>
+        <serverId>acb65384-213a-4917-a877-b5c993150a41</serverId>
+        <sshCredentialsId></sshCredentialsId>
+      </bitbucketSCMRepository>
+      <refName>refs/heads/main</refName>
+      <revisionSha1>6bec910c4b8bfcc580df665e3b6a87fb71cc5dba</revisionSha1>
+    </com.atlassian.bitbucket.jenkins.internal.status.BitbucketRevisionAction>
+  </actions>
+  <queueId>2</queueId>
+  <timestamp>1698811390344</timestamp>
+  <startTime>1698811390352</startTime>
+  <result>SUCCESS</result>
+  <duration>6614</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/test</workspace>
+  <hudsonVersion>2.429</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@5.2.0">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set">
+      <string>vinex22</string>
+    </c>
+  </culprits>
+</build>
