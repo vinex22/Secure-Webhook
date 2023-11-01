@@ -1,0 +1,25 @@
+Triggered by Bitbucket webhook due to changes by vinay jain.
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test
+The recommended git tool is: NONE
+using credential admin
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.test_repo.url http://bitbucket:7990/scm/test/test_repo.git # timeout=10
+Fetching upstream changes from http://bitbucket:7990/scm/test/test_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- http://bitbucket:7990/scm/test/test_repo.git +refs/heads/*:refs/remotes/test_repo/* # timeout=10
+ > git rev-parse refs/remotes/test_repo/main^{commit} # timeout=10
+Checking out Revision 7bbbfd538a1f032387820e5fc20e66cb2f1f7a19 (refs/remotes/test_repo/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7bbbfd538a1f032387820e5fc20e66cb2f1f7a19 # timeout=10
+Commit message: "om bahtt swaha"
+ > git rev-list --no-walk 6bec910c4b8bfcc580df665e3b6a87fb71cc5dba # timeout=10
+Posting build status of INPROGRESS to Local for commit id [7bbbfd538a1f032387820e5fc20e66cb2f1f7a19] and ref 'refs/heads/main'
+[test] $ /bin/sh -xe /tmp/jenkins6496440088554217788.sh
++ cat requirements.txt
+vinay jain
+2 abhi prasharPosting build status of SUCCESSFUL to Local for commit id [7bbbfd538a1f032387820e5fc20e66cb2f1f7a19] and ref 'refs/heads/main'
+Finished: SUCCESS

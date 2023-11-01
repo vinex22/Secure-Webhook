@@ -4,9 +4,16 @@
     <hudson.model.CauseAction>
       <causeBag class="linked-hash-map">
         <entry>
-          <hudson.model.Cause_-UserIdCause>
-            <userId>admin</userId>
-          </hudson.model.Cause_-UserIdCause>
+          <com.atlassian.bitbucket.jenkins.internal.trigger.BitbucketWebhookTriggerCause plugin="atlassian-bitbucket-server-integration@4.0.0">
+            <triggerRequest>
+              <actor>
+                <displayName>vinay jain</displayName>
+                <emailAddress>vinex22@gmail.com</emailAddress>
+                <name>admin</name>
+              </actor>
+              <additionalActions/>
+            </triggerRequest>
+          </com.atlassian.bitbucket.jenkins.internal.trigger.BitbucketWebhookTriggerCause>
           <int>1</int>
         </entry>
       </causeBag>
@@ -20,7 +27,7 @@
           <string>refs/remotes/test_repo/main</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@4.5.0">
-              <sha1>6bec910c4b8bfcc580df665e3b6a87fb71cc5dba</sha1>
+              <sha1>7bbbfd538a1f032387820e5fc20e66cb2f1f7a19</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -29,7 +36,7 @@
               </branches>
             </marked>
             <revision reference="../marked"/>
-            <hudsonBuildNumber>5</hudsonBuildNumber>
+            <hudsonBuildNumber>6</hudsonBuildNumber>
           </hudson.plugins.git.util.Build>
         </entry>
       </buildsByBranchName>
@@ -51,14 +58,14 @@
         <sshCredentialsId></sshCredentialsId>
       </bitbucketSCMRepository>
       <refName>refs/heads/main</refName>
-      <revisionSha1>6bec910c4b8bfcc580df665e3b6a87fb71cc5dba</revisionSha1>
+      <revisionSha1>7bbbfd538a1f032387820e5fc20e66cb2f1f7a19</revisionSha1>
     </com.atlassian.bitbucket.jenkins.internal.status.BitbucketRevisionAction>
   </actions>
-  <queueId>2</queueId>
-  <timestamp>1698811390344</timestamp>
-  <startTime>1698811390352</startTime>
+  <queueId>3</queueId>
+  <timestamp>1698824841062</timestamp>
+  <startTime>1698824841072</startTime>
   <result>SUCCESS</result>
-  <duration>6614</duration>
+  <duration>10222</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>
