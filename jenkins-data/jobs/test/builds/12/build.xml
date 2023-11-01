@@ -27,7 +27,7 @@
           <string>refs/remotes/test_repo/main</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@4.5.0">
-              <sha1>3f48bb216ea8d25db25cafd60f2748404904c91a</sha1>
+              <sha1>a3727cf3ea1cc3728e5bd8ba84a81295eaad7032</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -36,7 +36,7 @@
               </branches>
             </marked>
             <revision reference="../marked"/>
-            <hudsonBuildNumber>11</hudsonBuildNumber>
+            <hudsonBuildNumber>12</hudsonBuildNumber>
           </hudson.plugins.git.util.Build>
         </entry>
       </buildsByBranchName>
@@ -58,14 +58,14 @@
         <sshCredentialsId></sshCredentialsId>
       </bitbucketSCMRepository>
       <refName>refs/heads/main</refName>
-      <revisionSha1>3f48bb216ea8d25db25cafd60f2748404904c91a</revisionSha1>
+      <revisionSha1>a3727cf3ea1cc3728e5bd8ba84a81295eaad7032</revisionSha1>
     </com.atlassian.bitbucket.jenkins.internal.status.BitbucketRevisionAction>
   </actions>
-  <queueId>2</queueId>
-  <timestamp>1698828654240</timestamp>
-  <startTime>1698828654246</startTime>
+  <queueId>3</queueId>
+  <timestamp>1698828753056</timestamp>
+  <startTime>1698828753081</startTime>
   <result>SUCCESS</result>
-  <duration>3453</duration>
+  <duration>3119</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>

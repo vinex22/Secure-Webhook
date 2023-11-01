@@ -12,13 +12,13 @@ Fetching upstream changes from http://bitbucket:7990/scm/test/test_repo.git
 using GIT_ASKPASS to set credentials 
  > git fetch --tags --force --progress -- http://bitbucket:7990/scm/test/test_repo.git +refs/heads/*:refs/remotes/test_repo/* # timeout=10
  > git rev-parse refs/remotes/test_repo/main^{commit} # timeout=10
-Checking out Revision 3f48bb216ea8d25db25cafd60f2748404904c91a (refs/remotes/test_repo/main)
+Checking out Revision a3727cf3ea1cc3728e5bd8ba84a81295eaad7032 (refs/remotes/test_repo/main)
  > git config core.sparsecheckout # timeout=10
- > git checkout -f 3f48bb216ea8d25db25cafd60f2748404904c91a # timeout=10
+ > git checkout -f a3727cf3ea1cc3728e5bd8ba84a81295eaad7032 # timeout=10
 Commit message: "v"
- > git rev-list --no-walk 5f34d2e071f98ac4d1788c48dd50d893cd1aadef # timeout=10
-Posting build status of INPROGRESS to Local for commit id [3f48bb216ea8d25db25cafd60f2748404904c91a] and ref 'refs/heads/main'
-[test] $ /bin/sh -xe /tmp/jenkins11938584497216043429.sh
+ > git rev-list --no-walk 3f48bb216ea8d25db25cafd60f2748404904c91a # timeout=10
+Posting build status of INPROGRESS to Local for commit id [a3727cf3ea1cc3728e5bd8ba84a81295eaad7032] and ref 'refs/heads/main'
+[test] $ /bin/sh -xe /tmp/jenkins8555549580856929021.sh
 + cat requirements.txt
-requestsPosting build status of SUCCESSFUL to Local for commit id [3f48bb216ea8d25db25cafd60f2748404904c91a] and ref 'refs/heads/main'
+requestsPosting build status of SUCCESSFUL to Local for commit id [a3727cf3ea1cc3728e5bd8ba84a81295eaad7032] and ref 'refs/heads/main'
 Finished: SUCCESS
