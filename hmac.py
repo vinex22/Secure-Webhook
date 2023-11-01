@@ -4,8 +4,10 @@ import http.server
 import json
 import os
 from http.server import BaseHTTPRequestHandler
+import requests  # Import the requests library
 
 SECRET_KEY = "It's a Secret to Everybody"
+JENKINS_WEBHOOK_URL = "http://jenkins-webhook-url"  # Replace with your Jenkins webhook URL
 
 class WebhookHandler(BaseHTTPRequestHandler):
     def do_POST(self):
@@ -32,17 +34,17 @@ class WebhookHandler(BaseHTTPRequestHandler):
             self.end_headers()
 
     def forward_webhook_to_jenkins(self, payload):
-        # Replace with the logic to forward the payload to Jenkins
-        # You can use the requests library or any suitable method to make an HTTP POST request to Jenkins.
-        # Example:
-        # import requests
-        # jenkins_url = "http://jenkins-webhook-url"
-        # headers = {"Content-Type": "application/json"}
-        # response = requests.post(jenkins_url, data=payload, headers=headers)
-
-        # For simplicity, we'll just print the payload here
-        print("Forwarding to Jenkins:")
-        print(payload.decode('utf-8'))
+        # Forward the payload to Jenkins by making an HTTP POST request
+        headers = {"Content-Type": "application/json"}
+        
+        try:
+            response = requests.post(JENKINS_WEBHOOK_URL, data=payload, headers=headers)
+            if response.status_code == 200:
+                print("Webhook forwarded to Jenkins successfully.")
+            else:
+                print(f"Failed to forward the webhook to Jenkins. HTTP Response Code: {response.status_code}")
+        except Exception as e:
+            print(f"Error while forwarding webhook to Jenkins: {str(e)}")
 
 def run(server_class=http.server.HTTPServer, handler_class=WebhookHandler, port=80):
     server_address = ('', port)
