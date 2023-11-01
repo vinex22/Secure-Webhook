@@ -59,10 +59,13 @@
   <triggers>
     <com.atlassian.bitbucket.jenkins.internal.trigger.BitbucketWebhookTriggerImpl plugin="atlassian-bitbucket-server-integration@4.0.0">
       <spec></spec>
-      <pullRequestTrigger>true</pullRequestTrigger>
+      <pullRequestTrigger>false</pullRequestTrigger>
       <refTrigger>true</refTrigger>
       <version>1</version>
     </com.atlassian.bitbucket.jenkins.internal.trigger.BitbucketWebhookTriggerImpl>
+    <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.37.3.1">
+      <spec></spec>
+    </com.cloudbees.jenkins.GitHubPushTrigger>
     <hudson.triggers.SCMTrigger>
       <spec></spec>
       <ignorePostCommitHooks>false</ignorePostCommitHooks>
