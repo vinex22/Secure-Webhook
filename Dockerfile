@@ -9,7 +9,7 @@ COPY hmac.py /app/
 
 
 # Install any needed packages specified in requirements.txt
-#RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt
 
 # Run hmac.py when the container launches
 CMD ["python", "hmac.py"]

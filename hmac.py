@@ -6,8 +6,8 @@ import os
 from http.server import BaseHTTPRequestHandler
 import requests  # Import the requests library
 
-SECRET_KEY = "It's a Secret to Everybody"
-JENKINS_WEBHOOK_URL = "http://jenkins-webhook-url"  # Replace with your Jenkins webhook URL
+SECRET_KEY = "2212"
+JENKINS_WEBHOOK_URL = "http://jenkins-secure:8080/bitbucket-server-webhook/trigger"  # Replace with your Jenkins webhook URL
 
 class WebhookHandler(BaseHTTPRequestHandler):
     def do_POST(self):
