@@ -55,4 +55,5 @@ def run(server_class=http.server.HTTPServer, handler_class=WebhookHandler, port=
 
 
 if __name__ == '__main__':
+    print("Starting the server...")
     run()
