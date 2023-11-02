@@ -52,5 +52,7 @@ def run(server_class=http.server.HTTPServer, handler_class=WebhookHandler, port=
     print(f"Server is running on port {port}...")
     httpd.serve_forever()
 
+def send_webhook_to_jenkins():
+    
 if __name__ == '__main__':
     run()

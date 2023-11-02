@@ -6,7 +6,7 @@
   <usages>
     <entry>
       <string>test</string>
-      <ranges>1-16</ranges>
+      <ranges>16</ranges>
     </entry>
   </usages>
   <facets/>
