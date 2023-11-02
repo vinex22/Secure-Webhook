@@ -1,0 +1,26 @@
+Triggered by Bitbucket webhook due to changes by vinay jain.
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test
+The recommended git tool is: NONE
+using credential admin
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.test_repo.url http://bitbucket:7990/scm/test/test_repo.git # timeout=10
+Fetching upstream changes from http://bitbucket:7990/scm/test/test_repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- http://bitbucket:7990/scm/test/test_repo.git +refs/heads/*:refs/remotes/test_repo/* # timeout=10
+ > git rev-parse refs/remotes/test_repo/main^{commit} # timeout=10
+Checking out Revision 5fcb65b64d7e2e5a3123c87ca3f9b71b2981bfd2 (refs/remotes/test_repo/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5fcb65b64d7e2e5a3123c87ca3f9b71b2981bfd2 # timeout=10
+Commit message: "vv"
+ > git rev-list --no-walk ac25ff8372a92fe5bc5fc646006f5603a15ac29f # timeout=10
+Posting build status of INPROGRESS to Local for commit id [5fcb65b64d7e2e5a3123c87ca3f9b71b2981bfd2] and ref 'refs/heads/main'
+[test] $ /bin/sh -xe /tmp/jenkins16546282760036983337.sh
++ cat test.txt
+cat: test.txt: No such file or directory
+Build step 'Execute shell' marked build as failure
+Posting build status of FAILED to Local for commit id [5fcb65b64d7e2e5a3123c87ca3f9b71b2981bfd2] and ref 'refs/heads/main'
+Finished: FAILURE
