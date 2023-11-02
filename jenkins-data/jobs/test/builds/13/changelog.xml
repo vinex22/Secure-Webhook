@@ -1,0 +1,23 @@
+commit ac25ff8372a92fe5bc5fc646006f5603a15ac29f
+tree d72d9ab6c6efd88c821db06fbeeb2492ec4321c7
+parent a3727cf3ea1cc3728e5bd8ba84a81295eaad7032
+author vinex22 <vinex22@gmail.com> 2023-11-01 16:57:03 +0800
+committer vinex22 <vinex22@gmail.com> 2023-11-01 16:57:03 +0800
+
+    v
+
+
+:100644 100644 4358248e3ca5a823fa7ad503c0d8c01f5d1773d2 bc30a8ddc69cf499a032a5018c75c9df19a5f6bd M	jenkins-data/fingerprints/66/9f/a491ef16ba60dafdd68d92b41659.xml
+:100644 100644 afce83d02330c0e6d08f16b08ffdbaac67ada19c 7e294f5a7a2f265eee4d6e57f59fdd84c3a7e947 M	jenkins-data/fingerprints/7c/97/1e685c0528460046b1cc9d0430f8.xml
+:100644 100644 3d3a261bafddd823fa6ab1b09c207851ab52ed57 36d1ab94d09b71dfb78cf170395ffcf97d442809 M	jenkins-data/jobs/test/bitbucket-webhook-trigger.log
+:100644 000000 0d8601e60d84ebfee2162baa5af65a16c2854bc1 0000000000000000000000000000000000000000 D	jenkins-data/jobs/test/builds/11/changelog.xml
+:100644 100644 e88f003ba8f7517965f9540d2de960e2756d1774 2ee67666e3103788eb85bbe67fd8256d405a88d5 R090	jenkins-data/jobs/test/builds/11/build.xml	jenkins-data/jobs/test/builds/12/build.xml
+:000000 100644 0000000000000000000000000000000000000000 63f6410085d54120b7fbefe7a8e6bd4aecd4ab34 A	jenkins-data/jobs/test/builds/12/changelog.xml
+:100644 100644 21eaf3b3dd288dcf221d37ecaf070b8c2ba9dddb f53cabd02b14871789dc51fef328bdb22985bf28 R069	jenkins-data/jobs/test/builds/11/log	jenkins-data/jobs/test/builds/12/log
+:100644 100644 da1f348f746d480d2d80b14f4bd792cd9fc4ae46 598faba850b90b2c5b7efda7bf00e49167626887 M	jenkins-data/jobs/test/builds/permalinks
+:100644 100644 48082f72f087ce7e6fa75b9c41d7387daecd447b b1bd38b62a0800a4f6a80c34e21c5acffae52c7e M	jenkins-data/jobs/test/nextBuildNumber
+:100644 100644 72564655f060a0975244292cff518c170979d34a 92a52cb0117e9b1d8b026f350e7d22b052a727e6 M	jenkins-data/logs/jenkins.branch.MultiBranchProject.log
+:100644 100644 bf07647cbf8f80ccfc0db191b92feeaec0167336 374d606e11d847228a65b14e616e305a41cdbb31 M	jenkins-data/logs/jenkins.branch.OrganizationFolder.log
+:100644 100644 e8baae2c4aca6f20aa501584d63210cf309070ee 285a3995a6a63c6502abda911322d76d50522594 M	jenkins-data/queue.xml
+:160000 160000 3f48bb216ea8d25db25cafd60f2748404904c91a a3727cf3ea1cc3728e5bd8ba84a81295eaad7032 M	jenkins-data/workspace/test
+:100644 100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 bb79ec2de59197fe11eeb60d312673a87c1b8932 M	test
