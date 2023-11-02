@@ -12,4 +12,4 @@ COPY requirements.txt /app/
 RUN pip install -r requirements.txt
 
 # Run hmac.py when the container launches
-CMD ["python", "swr.py"]
+CMD ["python",  "-u", "swr.py"]
