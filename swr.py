@@ -18,7 +18,7 @@ class WebhookHandler(BaseHTTPRequestHandler):
         calculated_signature = "sha256=" + hmac.new(SECRET_KEY.encode('utf-8'), payload, hashlib.sha256).hexdigest()
 
         # Get the provided signature from the request headers
-        given_signature = self.headers.get('X-Hub-Signature-256')
+        given_signature = self.headers.get('X-Hub-Signature')
 
         if calculated_signature == given_signature:
             print("Signatures match")
