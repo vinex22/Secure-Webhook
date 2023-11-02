@@ -19,7 +19,8 @@ class WebhookHandler(BaseHTTPRequestHandler):
 
         # Get the provided signature from the request headers
         given_signature = self.headers.get('X-Hub-Signature')
-
+        print(given_signature)
+        print(calculated_signature)
         if calculated_signature == given_signature:
             print("Signatures match")
 
@@ -52,7 +53,6 @@ def run(server_class=http.server.HTTPServer, handler_class=WebhookHandler, port=
     print(f"Server is running on port {port}...")
     httpd.serve_forever()
 
-def send_webhook_to_jenkins():
-    
+
 if __name__ == '__main__':
     run()
