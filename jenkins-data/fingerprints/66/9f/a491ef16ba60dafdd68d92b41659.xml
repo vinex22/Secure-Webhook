@@ -6,11 +6,11 @@
   <usages>
     <entry>
       <string>test2</string>
-      <ranges>1</ranges>
+      <ranges>1-3</ranges>
     </entry>
     <entry>
       <string>test</string>
-      <ranges>16-26</ranges>
+      <ranges>16-28</ranges>
     </entry>
   </usages>
   <facets/>
