@@ -1,0 +1,27 @@
+commit 35df2dfbcb6a80803cd44080b89bbd5e8829a018
+tree f6fb11bfae7de3a9f55d3e76fedd33961517819e
+parent 1709eb4b7af056fc41ae8a6037b28c5e319085f4
+author vinex22 <vinex22@gmail.com> 2023-11-03 10:54:04 +0800
+committer vinex22 <vinex22@gmail.com> 2023-11-03 10:54:04 +0800
+
+    vv
+
+
+:100644 100644 d60d39cfc2c87021187278d1f37992355991277f 6a20ea3f7aaa33d7b9255f68734b894ae8c6c92f M	jenkins-data/fingerprints/66/9f/a491ef16ba60dafdd68d92b41659.xml
+:100644 100644 f444043cc53e24a1a22ecc3c8d24b84bdbc96728 e7210b87f113da33ab7f802aa929b8218ff5828e M	jenkins-data/fingerprints/7c/97/1e685c0528460046b1cc9d0430f8.xml
+:100644 100644 2ee50de5d45876c76075ed40f19d569d24c6c3b6 f71af42995202ae3a9ff2589874f97ec03c3783a M	jenkins-data/jobs/test/bitbucket-webhook-trigger.log
+:100644 100644 5dfaaa3fac85493d4cd21e6595dff7317624c22f faa0c6f45135728aee790200a49d9fa6c4c652c4 R090	jenkins-data/jobs/test/builds/26/build.xml	jenkins-data/jobs/test/builds/28/build.xml
+:100644 100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 R100	jenkins-data/jobs/test/builds/26/changelog.xml	jenkins-data/jobs/test/builds/28/changelog.xml
+:100644 100644 aba75aa9f601e19eff8c8821d314e80364d01153 04ada82b8c5479495545e6b607e0a5e9497cf4c0 R069	jenkins-data/jobs/test/builds/26/log	jenkins-data/jobs/test/builds/28/log
+:100644 100644 8b82d1722e220c21034ddb7319b77e02409fd248 6ee062ae07d4b004448c04abecc685433c70c959 M	jenkins-data/jobs/test/builds/permalinks
+:100644 100644 f64f5d8d85ac0230d36724bd7e6ba351a95b4942 f04c001f3f7fd5d290d0264b4a2c35f7b159ac42 M	jenkins-data/jobs/test/nextBuildNumber
+:100644 100644 ecb7d0009e7be94dea9f0b067ccd405a18c8bd3f f71af42995202ae3a9ff2589874f97ec03c3783a M	jenkins-data/jobs/test2/bitbucket-webhook-trigger.log
+:100644 100644 94d75d715537f1b3e0b9f8e45ef124ca389faf9a 5ce33d8b0eca703fc5d6058c7550eaa8cf32a6f2 R090	jenkins-data/jobs/test2/builds/1/build.xml	jenkins-data/jobs/test2/builds/3/build.xml
+:100644 100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 R100	jenkins-data/jobs/test2/builds/1/changelog.xml	jenkins-data/jobs/test2/builds/3/changelog.xml
+:100644 100644 72b862053ad2f1a88883d23f5d76c62b2b41780e b6bd22ed606f3ad6a32c39b3727f960faf9ec902 R080	jenkins-data/jobs/test2/builds/1/log	jenkins-data/jobs/test2/builds/3/log
+:100644 100644 8c155db71608ed11ffcdf53bb6919f684a851234 d6010d44ebd56a1e1f4d0d8bed772c7efc330505 M	jenkins-data/jobs/test2/builds/permalinks
+:100644 100644 0cfbf08886fca9a91cb753ec8734c84fcbe52c9f b8626c4cff2849624fb67f87cd0ad72b163671ad M	jenkins-data/jobs/test2/nextBuildNumber
+:100644 100644 d88fc5516acea56ca6383cc924f7ff2abe6e8d5e b2f7e34ce9d715c199e0f8101eead95e45a58850 M	jenkins-data/logs/jenkins.branch.MultiBranchProject.log
+:100644 100644 51d332aca9e6d0890db10f0126ef54ad2cd1af09 5e7966955f6c02d785968ca88462ed0e62e7e637 M	jenkins-data/logs/jenkins.branch.OrganizationFolder.log
+:160000 160000 a33cef79142c113613e71b368a7a056a99449894 1709eb4b7af056fc41ae8a6037b28c5e319085f4 M	jenkins-data/workspace/test
+:160000 160000 a33cef79142c113613e71b368a7a056a99449894 1709eb4b7af056fc41ae8a6037b28c5e319085f4 M	jenkins-data/workspace/test2
