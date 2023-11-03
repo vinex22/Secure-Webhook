@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  webhook-receiver:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Your Dockerfile for the webhook receiver
+    container_name: swr
+    ports:
+      - "80:80"
+    environment:
+      - SECRET_KEY=2212
+    networks:
+      - internal_network
+
+
+networks:
+  internal_network:
+
