@@ -5,7 +5,7 @@ import http.server  # Import the 'http.server' module for HTTPServer
 import requests
 
 SECRET_KEY = "2212"
-JENKINS_WEBHOOK_URL = "http://jenkins-secure:8080/github-webhook/"
+JENKINS_WEBHOOK_URL = "http://jenkins-secure:8080/bitbucket-server-webhook/trigger"
 
 class WebhookHandler(BaseHTTPRequestHandler):
     def do_POST(self):
