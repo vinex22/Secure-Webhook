@@ -5,8 +5,12 @@
   <fileName>Credential id=admin name=admin/******</fileName>
   <usages>
     <entry>
+      <string>test2</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
       <string>test</string>
-      <ranges>16-24</ranges>
+      <ranges>16-26</ranges>
     </entry>
   </usages>
   <facets/>
