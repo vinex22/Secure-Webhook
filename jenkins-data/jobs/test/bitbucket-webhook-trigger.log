@@ -1,7 +1,7 @@
-Starting polling: Nov 3, 2023, 2:12:36 AM
+Starting polling: Nov 3, 2023, 2:16:40 AM
 Polling SCM changes on built-in
 Using strategy: Default
-[poll] Last Built Revision: Revision 17d2642294517af48930c620edf56462c7e6dec9 (refs/remotes/test_repo/main)
+[poll] Last Built Revision: Revision a7d9483abb47670b05cd788aef0e052f2d716e85 (refs/remotes/test_repo/main)
 The recommended git tool is: NONE
 using credential admin
  > git --version # timeout=10
@@ -9,6 +9,6 @@ using credential admin
 using GIT_ASKPASS to set credentials 
  > git ls-remote -h -- http://bitbucket:7990/scm/test/test_repo.git # timeout=10
 Found 2 remote heads on http://bitbucket:7990/scm/test/test_repo.git
-[poll] Latest remote head revision on refs/heads/main is: a7d9483abb47670b05cd788aef0e052f2d716e85
-Poll complete. Took 3.2 sec
+[poll] Latest remote head revision on refs/heads/main is: 17ce7ea5e1753853f77d62a709b00b9d112276b2
+Poll complete. Took 0.64 sec
 Changes since last build: INCOMPARABLE
