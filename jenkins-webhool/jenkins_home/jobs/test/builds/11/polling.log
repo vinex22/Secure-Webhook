@@ -1,0 +1,13 @@
+Started on Oct 30, 2023, 6:11:21 AM
+Started by event from 172.20.0.3 ⇒ http://jenkins-webhook:8080/github-webhook/ on Mon Oct 30 06:11:21 UTC 2023
+Using strategy: Default
+[poll] Last Built Revision: Revision 07141ef992e19a199f4c2739a01c618621c9e4a1 (refs/remotes/origin/main)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git ls-remote -h -- http://gitea:3000/admin1/test.git # timeout=10
+Found 1 remote heads on http://gitea:3000/admin1/test.git
+[poll] Latest remote head revision on refs/heads/main is: d484a473b835541f17920f8a36e06904be66d523
+Done. Took 46 ms
+Changes found

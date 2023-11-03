@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Bitbucket Push and Pull Request Plugin
+Specification-Version: 3.0
+Implementation-Title: Bitbucket Push and Pull Request Plugin
+Implementation-Version: 3.0.0
+Group-Id: io.jenkins.plugins
+Short-Name: bitbucket-push-and-pull-request
+Long-Name: Bitbucket Push and Pull Request Plugin
+Url: https://github.com/jenkinsci/bitbucket-push-and-pull-request-plugin
+Compatible-Since-Version: 2.9.0
+Plugin-Version: 3.0.0
+Hudson-Version: 2.361.4
+Jenkins-Version: 2.361.4
+Plugin-Dependencies: configuration-as-code:1569.vb_72405b_80249;resoluti
+ on:=optional,workflow-api:1200.v8005c684b_a_c6,workflow-multibranch:716
+ .vc692a_e52371b_,credentials:1189.vf61b_a_5e2f62e,git:4.14.3,job-dsl:1.
+ 81.1,matrix-project:785.v06b_7f47b_c631,plain-credentials:139.ved2b_9cf
+ 7587b,scm-api:621.vda_a_b_055e58f7,structs:324.va_f5d6774f3a_d
+Plugin-Developers: Christian Del Monte:cdelmonte:
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/bitbucket-push-and-pull-requ
+ est-plugin
+

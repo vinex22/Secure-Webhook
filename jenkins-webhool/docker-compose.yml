@@ -1,0 +1,43 @@
+version: '3'
+services:
+  gitea:
+    image: gitea/gitea:latest
+    container_name: gitea
+    volumes:
+      - ./gitea/data:/data
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+    ports:
+      - "3000:3000"
+      - "2222:22"
+    networks:
+      - gitea-network
+    restart: always
+
+  jenkins-webhook:
+    image: jenkins/jenkins:latest
+    container_name: jenkins-webhook
+    volumes:
+      - ./jenkins_home:/var/jenkins_home
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    networks:
+      - gitea-network
+    restart: always
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - gitea-network
+    restart: always
+
+networks:
+  gitea-network:

@@ -1,0 +1,22 @@
+Started by GitHub push by 
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://gitea:3000/admin1/test.git # timeout=10
+Fetching upstream changes from http://gitea:3000/admin1/test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- http://gitea:3000/admin1/test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 5e90578e1e4acb4db2dd57b463c9b0fffbbfd6a9 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5e90578e1e4acb4db2dd57b463c9b0fffbbfd6a9 # timeout=10
+Commit message: "Update hi"
+ > git rev-list --no-walk bb29a88a10cece5815ec2da8de88159b26cc955f # timeout=10
+[test] $ /bin/sh -xe /tmp/jenkins11998952668645341387.sh
++ echo hello
+hello
+Finished: SUCCESS
