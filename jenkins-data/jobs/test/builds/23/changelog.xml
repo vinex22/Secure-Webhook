@@ -1,0 +1,21 @@
+commit dcb5b788794568aa0b79c84d6358bd9e37313c9c
+tree 82708f6512b8f3d29e123e6bb1000ccfe9784b1f
+parent 745368bd180513da09c8eb30588b092f577b9a62
+author vinex22 <vinex22@gmail.com> 2023-11-03 10:28:44 +0800
+committer vinex22 <vinex22@gmail.com> 2023-11-03 10:28:44 +0800
+
+    vv
+
+
+:100644 100644 50fb3987efb32bd5293efdec9a500cb8dab3f4b6 979537d72ea159152a05e5b39dc964873b67e5ea M	jenkins-data/fingerprints/66/9f/a491ef16ba60dafdd68d92b41659.xml
+:100644 100644 e6b00955def2619dfc17f2f4db5600eaf09845eb 0246401f84400ef97f95a6c44bd46a1843d5f492 M	jenkins-data/fingerprints/7c/97/1e685c0528460046b1cc9d0430f8.xml
+:100644 100644 811ca45bceb5e379fe0b5fc9cd48084060d7c182 27ec1e6b17fc006b2d66994bfb7b89dacd421f3d M	jenkins-data/jobs/test/bitbucket-webhook-trigger.log
+:100644 000000 71759ff91c4c0ff0744e1b0d392c38a29cece7aa 0000000000000000000000000000000000000000 D	jenkins-data/jobs/test/builds/21/changelog.xml
+:100644 100644 2d107c18431d293740b203cfd6dab6f2002602db edf8c6844e4daed1d365441b8be0647f4327ac26 R090	jenkins-data/jobs/test/builds/21/build.xml	jenkins-data/jobs/test/builds/22/build.xml
+:000000 100644 0000000000000000000000000000000000000000 c215e741741ccc4844650b9c425d97f68bd9d9a5 A	jenkins-data/jobs/test/builds/22/changelog.xml
+:100644 100644 3d41191b4c2f8c88ea20d5dc6f48a082482bf4e2 224ea3e220b86f892464667fca78b9262aade6d4 R067	jenkins-data/jobs/test/builds/21/log	jenkins-data/jobs/test/builds/22/log
+:100644 100644 cf3870ae69f5079acb80286dc5b090c2a9d206f2 a662bfdca40c9601262a05b239e54ab5fbffceb8 M	jenkins-data/jobs/test/builds/permalinks
+:100644 100644 2bd5a0a98a36cc08ada88b804d3be047e6aa5b8a 409940768f2a684935a7d15a29f96e82c487f439 M	jenkins-data/jobs/test/nextBuildNumber
+:100644 100644 6d3fcf4f925aafc09e667ced69bfaeb32968a5e1 7fec4ced24253775e472d7406c63e23f225278a0 M	jenkins-data/logs/jenkins.branch.MultiBranchProject.log
+:100644 100644 6d6a5ad70f71e72eb3c4213dbf76120264d76a1f 2dc6c2710516a1a4dad880ed8d17acdd1b23db48 M	jenkins-data/logs/jenkins.branch.OrganizationFolder.log
+:160000 160000 8a07056b96a32a765ac98e39431c51f477f2f144 745368bd180513da09c8eb30588b092f577b9a62 M	jenkins-data/workspace/test
