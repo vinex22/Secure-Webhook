@@ -11,9 +11,11 @@ services:
     environment:
       - SECRET_KEY=2212
     networks:
-      - internal_network
+      - securewebhook_internal_network
 
 
 networks:
-  internal_network:
+  securewebhook_internal_network:
+    external: true
+      
 
