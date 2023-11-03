@@ -26,7 +26,9 @@ class WebhookHandler(BaseHTTPRequestHandler):
             print("Signatures match")
 
             # Forward the payload to Jenkins
-            self.forward_webhook_to_jenkins(payload)
+            #self.forward_webhook_to_jenkins(payload)
+            self.forward_webhook_to_jenkins(payload, self.headers)
+
 
             self.send_response(200)
             self.end_headers()
@@ -35,18 +37,15 @@ class WebhookHandler(BaseHTTPRequestHandler):
             self.send_response(403)
             self.end_headers()
 
-    def forward_webhook_to_jenkins(self, payload):
-        # Forward the payload to Jenkins by making an HTTP POST request
-        headers = {"Content-Type": "application/json"}
-        
-        try:
-            response = requests.post(JENKINS_WEBHOOK_URL, data=payload, headers=headers)
-            if response.status_code == 200:
-                print("Webhook forwarded to Jenkins successfully.")
-            else:
-                print(f"Failed to forward the webhook to Jenkins. HTTP Response Code: {response.status_code}")
-        except Exception as e:
-            print(f"Error while forwarding webhook to Jenkins: {str(e)}")
+        def forward_webhook_to_jenkins(self, payload, headers):
+            try:
+                response = requests.post(JENKINS_WEBHOOK_URL, data=payload, headers=headers)
+                if response.status_code == 200:
+                    print("Webhook forwarded to Jenkins successfully.")
+                else:
+                    print(f"Failed to forward the webhook to Jenkins. HTTP Response Code: {response.status_code}")
+            except Exception as e:
+                print(f"Error while forwarding webhook to Jenkins: {str(e)}")
 
 def run(server_class=http.server.HTTPServer, handler_class=WebhookHandler, port=80):
     server_address = ('', port)
