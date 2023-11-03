@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-11-03 02:11:32.976 UTC</timestamp>
+  <md5sum>7c971e685c0528460046b1cc9d0430f8</md5sum>
+  <fileName>Credential id=bbpat name= - Bitbucket admin token</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1307.v3757c78f17c3">
+      <timestamp>1698977495883</timestamp>
+      <itemFullName>test</itemFullName>
+      <timestamp0>1698977492974</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>
